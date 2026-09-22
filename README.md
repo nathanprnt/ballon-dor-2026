@@ -3,12 +3,12 @@
 Le 26 octobre à Londres, France Football remet le Ballon d'Or 2026. Ici, on
 prend les cinq attaquants les mieux cotés chez les bookmakers, les critères
 officiels du règlement, et on regarde qui gagne selon ce qu'on décide de
-peser. Verdict avant la cérémonie, comparaison avec le vote réel après.
+peser. Verdict avant la cérémonie.
 
 **La réponse courte : Ousmane Dembélé.** Il finit premier sous 54 % des
 lectures possibles du règlement, Harry Kane sous 40 %. Tout se joue sur le
 poids donné au palmarès : en dessous de 28 % environ, Kane passe devant.
-Le marché des paris, lui, classait Dembélé dernier des cinq.
+Le marché des paris, lui, classe Dembélé dernier des cinq.
 
 ![sensibilité](figures/sensibilite.png)
 
@@ -27,18 +27,15 @@ de 5 %), soit 35 lectures possibles. Le scénario central présenté dans le
 notebook (60/30/10) n'est qu'une illustration.
 
 **Les candidats** : les cinq attaquants en tête des cotes bookmakers au
-[DATE DE LA CAPTURE] (capture dans `docs/`) — Kane, Yamal, Mbappé,
+22/09/26 (capture dans `docs/`) — Kane, Yamal, Mbappé,
 Kvaratskhelia, Dembélé. Sélection restreinte aux profils offensifs, car nos
 indicateurs (buts, création) ne comparent pas équitablement un milieu ou un
 défenseur. Messi, bien coté, est écarté : il joue en MLS, hors de nos
-sources de données — on ne classe pas ce qu'on ne peut pas mesurer pareil.
+sources de données, on ne classe pas ce qu'on ne peut pas mesurer pareil.
 Les cinq figurent parmi les 30 nommés officiels du 8 septembre 2026.
 
-**Les données** : FBref pour tout — championnats et Coupe du monde récupérés
-automatiquement (bibliothèque soccerdata), Ligue des champions relevée à la
-main sur les pages joueurs, la bibliothèque ne couvrant pas cette
-compétition. Une seule source, deux modes de collecte. Le palmarès et les
-distinctions sont saisis à la main depuis les palmarès publics.
+**Les données** : FBref : championnats, Coupe du monde et Ligue des Champions
+Le palmarès et les distinctions sont saisis à la main depuis les palmarès publics.
 
 **Ce qu'on mesure, critère par critère** :
 - *Individuel* : buts hors penalty et passes décisives (en volume et par
@@ -47,16 +44,14 @@ distinctions sont saisis à la main depuis les palmarès publics.
   qui traduisent le « caractère décisif et impressionnant » du règlement.
 - *Collectif* : les trophées gagnés dans la fenêtre officielle, lecture à la
   lettre de l'article 3 — tout ce qui est gagné entre les deux dates compte,
-  supercoupes incluses. Barème : CDM 6, LdC 5, championnat 3, coupe
+  supercoupes incluses. Barème choisi : CDM 6, LdC 5, championnat 3, coupe
   nationale 1, supercoupe 0.5 (vainqueur = 1, finaliste = 0.5, 3e de CDM =
   0.25, 4e = 0.15).
 - *Fair-play* : les cartons par 90 minutes, un rouge pesant trois jaunes.
-  C'est pauvre, et c'est assumé plus bas.
 
 Chaque indicateur est ramené entre 0 et 1 sur nos cinq candidats : le
 meilleur du groupe vaut 1, le moins bon 0. Un 0 ne veut donc pas dire
-« rien » — Mbappé affiche 0 en collectif avec un vrai parcours de CDM,
-simplement le plus maigre des cinq.
+« rien »
 
 ## Le profil de chaque candidat
 
@@ -72,16 +67,13 @@ et c'est pour ça qu'il gagne dès que le palmarès pèse peu.
 Les cotes au 22/09/26 classaient : Kane, Yamal, Mbappé, Kvaratskhelia,
 Dembélé. Notre score : Dembélé, Kane, Yamal, Mbappé, Kvaratskhelia. Sur
 Kane, le marché et le règlement convergent. Sur Dembélé, tout les oppose :
-dernier chez les bookmakers, premier sous une majorité de lectures du
+dernier des 5 chez les bookmakers, premier sous une majorité de lectures du
 règlement. Réponse le 26 octobre.
 
 ## Les limites
 
 - Le fair-play réduit aux cartons : le règlement parle de « classe », les
-  données publiques ne mesurent pas la classe.
-- Le filtre par poste exclut des candidatures réelles (milieux, défenseurs,
-  le dossier Hakimi et sa CAN gagnée) : ce classement répond à « quel
-  attaquant mérite le Ballon d'Or », pas à « qui va le gagner ».
+  données publiques ne permettent de la mesurer ;)
 - Pas de métriques attendues (xG) dans nos tableaux : on mesure la
   production réelle — comme le jury, qui vote sur ce qui s'est passé.
 - La normalisation sur cinq joueurs amplifie les écarts : 0 = dernier des
@@ -91,10 +83,6 @@ règlement. Réponse le 26 octobre.
   notebook, faits pour être discutés — l'analyse de sensibilité montre que
   la conclusion principale y résiste.
 
-## Verdict du 26 octobre
-
-*Section à compléter après la cérémonie : classement réel du jury (barème
-officiel 15/12/10/8...) face à notre classement. On comptera les points.*
 
 ## Reproduire
 
