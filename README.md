@@ -64,7 +64,7 @@ et c'est pour ça qu'il gagne dès que le palmarès pèse peu.
 
 ## Le marché avait-il raison ?
 
-Les cotes au 22/09/26 classaient : Kane, Yamal, Mbappé, Kvaratskhelia,
+Les cotes au 22/09/26 classent : Kane, Yamal, Mbappé, Kvaratskhelia,
 Dembélé. Notre score : Dembélé, Kane, Yamal, Mbappé, Kvaratskhelia. Sur
 Kane, le marché et le règlement convergent. Sur Dembélé, tout les oppose :
 dernier des 5 chez les bookmakers, premier sous une majorité de lectures du
