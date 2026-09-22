@@ -69,13 +69,13 @@ et c'est pour ça qu'il gagne dès que le palmarès pèse peu.
 
 ## Le marché avait-il raison ?
 
-Les cotes au [DATE] classaient : Kane, Yamal, Mbappé, Kvaratskhelia,
+Les cotes au 22/09/26 classaient : Kane, Yamal, Mbappé, Kvaratskhelia,
 Dembélé. Notre score : Dembélé, Kane, Yamal, Mbappé, Kvaratskhelia. Sur
 Kane, le marché et le règlement convergent. Sur Dembélé, tout les oppose :
 dernier chez les bookmakers, premier sous une majorité de lectures du
 règlement. Réponse le 26 octobre.
 
-## Les limites, sans se cacher
+## Les limites
 
 - Le fair-play réduit aux cartons : le règlement parle de « classe », les
   données publiques ne mesurent pas la classe.
